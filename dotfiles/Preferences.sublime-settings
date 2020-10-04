@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"dictionary": "Packages/Language - German/de_DE.dic",
+	"font_face": "Inconsolata",
+	"font_size": 20,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"theme": "Default.sublime-theme"
+}

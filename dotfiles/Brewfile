@@ -1,0 +1,149 @@
+tap "homebrew/cask-fonts"
+tap 'homebrew/cask-versions'
+
+cask_args appdir: "/Applications"
+
+brew "mas"
+
+# Browsers
+cask "safari-technology-preview"
+cask "firefox-developer-edition"
+cask "firefox-nightly"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "microsoft-edge"
+
+mas "Better Blocker", id: 1121192229
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+
+# Edge Canary is not available via Homebrew
+cask "microsoft-edge-dev"
+
+# Producitivty & Utility
+mas "Pages", id: 409201541
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+
+mas "Agenda", id: 1287445660
+mas "iA Writer", id: 775737590
+mas "MindNode 2", id: 992076693
+mas "Raindrop.io for Safari", id: 957810159
+mas "Reeder 3", id: 880001334
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+
+cask "1password"
+cask "alfred3"
+cask "anki"
+cask "backblaze"
+cask "basictex"
+cask "beardedspice"
+cask "busycal"
+cask "busycontacts"
+cask "gifox"
+cask "glyphfinder"
+cask "keycastr"
+cask "raindropio"
+cask "spotify"
+cask "ubersicht"
+
+# Quicklook Plugins
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "quicklook-csv"
+cask "quicklook-json"
+
+# Messaging & Collaboration
+mas "Slack", id: 803453959
+
+cask "microsoft-teams"
+cask "signal"
+cask "skype"
+cask "telegram"
+cask "zoomus"
+
+# Business & Taxes
+mas "Steuererklärung", id: 748816884
+mas "Tyme 2", id: 1063996724
+
+cask "moneymoney"
+
+# Design
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+
+cask "figma"
+cask "imageoptim"
+cask "sketch"
+
+# Some fonts are installed using Subversion
+brew "svn"
+
+cask "font-alegreya"
+cask "font-arimo"
+cask "font-fira-code"
+cask "font-fira-sans"
+cask "font-fira-sans-condensed"
+cask "font-ibm-plex"
+cask "font-inter"
+cask "font-inconsolata"
+cask "font-karla"
+cask "font-merriweather"
+cask "font-merriweather-sans"
+cask "font-overpass"
+cask "font-pt-sans"
+cask "font-roboto"
+cask "font-roboto-slab"
+cask "font-pt-serif"
+cask "font-space-grotesk"
+cask "font-vollkorn"
+cask "font-work-sans"
+cask "font-yatra-one"
+cask "font-space-mono"
+
+# Dev
+cask "browserstacklocal"
+cask "dash3"
+cask "docker"
+cask "fork"
+cask "gpg-suite-no-mail"
+cask "iterm2"
+cask "mamp"
+cask "paw"
+cask "rstudio"
+cask "sublime-text"
+cask "sublime-merge"
+cask "tableplus"
+cask "tower2"
+cask "transmit"
+cask "vmware-fusion"
+
+# CLI
+brew "ansible"
+brew "bash"
+brew "brotli"
+brew "caddy"
+brew "curl"
+brew "coreutils"
+brew "findutils"
+brew "fish"
+brew "gh"
+brew "git"
+brew "git-secrets"
+brew "goaccess"
+brew "imageoptim-cli"
+brew "mailhog"
+brew "make"
+brew "pandoc"
+brew "pandoc-citeproc"
+brew "pandoc-crossref"
+brew "rsync"
+brew "spotifyd"
+brew "stow"
+brew "trash"
+brew "tree"
+brew "vim"
+brew "wget"
+brew "xz"
+brew "zopfli"
