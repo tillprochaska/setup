@@ -115,7 +115,7 @@ cask "rstudio"
 cask "sublime-text"
 cask "sublime-merge"
 cask "tableplus"
-cask "tower2"
+cask "tower"
 cask "transmit"
 cask "vmware-fusion"
 
