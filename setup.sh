@@ -29,4 +29,9 @@ chsh -s $shell_path
 cp ./dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 
+# Symlink dotfiles
+dotdir="$(git rev-parse --show-toplevel)/dotfiles"
+ln -s "$dotdir/.gitconfig" ~/.gitconfig
+ln -s "$dotdir/.gitignore" ~/.gitignore
+
 echo "🚨🚨🚨 Do not forget to reset full disk access permission! 🚨🚨🚨"
