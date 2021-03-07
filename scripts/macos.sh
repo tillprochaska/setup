@@ -35,6 +35,9 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Reduce transparency (in window backgrounds etc.)
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
+# Hide icons on desktop
+defaults write com.apple.finder CreateDesktop false
+
 
 #######################################
 # DOCK                                #
