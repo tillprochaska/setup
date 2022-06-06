@@ -14,9 +14,6 @@ cask "google-chrome"
 cask "google-chrome-canary"
 cask "microsoft-edge"
 
-mas "Better Blocker", id: 1121192229
-mas "DuckDuckGo Privacy Essentials", id: 1482920575
-
 # Edge Canary is not available via Homebrew
 cask "microsoft-edge-dev"
 
@@ -26,14 +23,12 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 
 mas "Agenda", id: 1287445660
-mas "Das Deutschlandradio", id: 1042736341
 mas "iA Writer", id: 775737590
 mas "MindNode 2", id: 992076693
-mas "Raindrop.io for Safari", id: 957810159
 mas "Reeder 3", id: 880001334
-mas "Shazam", id: 897118787
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "Tailscale", id: 1475387142
 
 cask "1password"
 cask "1password-cli"
@@ -46,25 +41,23 @@ cask "basictex"
 cask "beardedspice"
 cask "busycal"
 cask "busycontacts"
+cask "camtasia"
 cask "canon-captureontouch-utility"
 cask "contexts"
 cask "gifox"
-cask "glyphfinder"
 cask "grandperspective"
+cask "handbrake"
 cask "keycastr"
 cask "macpass"
 cask "nextcloud"
+cask "papers"
 cask "raindropio"
+cask "raycast"
 cask "sim-daltonism"
 cask "spotify"
+cask "tidal"
 cask "ubersicht"
-
-# Quicklook Plugins
-cask "qlcolorcode"
-cask "qlimagesize"
-cask "qlmarkdown"
-cask "quicklook-csv"
-cask "quicklook-json"
+cask "zotero"
 
 # Messaging & Collaboration
 mas "Slack", id: 803453959
@@ -124,7 +117,7 @@ cask "font-space-mono"
 cask "font-spectral"
 
 # Dev
-cask "browserstacklocal"
+cask "android-studio"
 cask "dash3"
 cask "docker"
 cask "eclipse-jee"
@@ -136,6 +129,7 @@ cask "ngrok"
 cask "paw"
 cask "qt-creator"
 cask "phpstorm"
+cask "processing"
 cask "ray"
 cask "rstudio"
 cask "sublime-text"
@@ -167,18 +161,28 @@ brew "git"
 brew "git-secrets"
 brew "goaccess"
 brew "imageoptim-cli"
+brew "insect"
+brew "libgit2"
 brew "mailhog"
 brew "make"
 brew "npm"
+brew "optipng"
 brew "pandoc"
 brew "pandoc-citeproc"
 brew "pandoc-crossref"
+brew "pngquant"
+brew "potrace"
 brew "python3"
 brew "qt5"
+brew "r"
 brew "rsync"
+brew "rust"
+brew "rustfmt"
 brew "smartmontools"
 brew "spotifyd"
+brew "sqlite3"
 brew "stow"
+brew "tmux"
 brew "trash"
 brew "tree"
 brew "vim"
