@@ -18,15 +18,12 @@ defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
 
 # Language settings
 defaults write NSGlobalDomain AppleLanguages -array "en" "de"
-defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=EUR"
-sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
+defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
+sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
 
 # Always require password
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
-
-# Disable confirm dialog when opening new applications 
-defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
@@ -124,43 +121,6 @@ defaults write com.apple.finder SidebarDevicesSectionDisclosedState -bool true
 defaults write com.apple.finder SidebarPlacesSectionDisclosedState -bool true
 defaults write com.apple.finder SidebarShowingSignedIntoiCloud -bool false
 defaults write com.apple.finder SidebarTagsSctionDisclosedState -bool false
-
-
-#######################################
-# SAFARI                              #
-#######################################
-
-# Disable search suggestions
-defaults write -app Safari UniversalSearchEnabled -bool false
-defaults write -app Safari SuppressSearchSuggestions -bool true
-
-defaults write -app Safari "WebKitPreferences.backspaceKeyNavigationEnabled" -bool true
-defaults write -app Safari "WebKitPreferences.tabFocusesLinks" -bool true
-
-# Show full URL instead of hostname
-defaults write -app Safari ShowFullURLInSmartSearchField -bool true
-
-# Show about:blank when opening new tab/window
-defaults write -app Safari NewWindowBehavior -int 1
-defaults write -app Safari NewTabBehavior -int 1
-
-# Do not open downloaded files automatically
-defaults write -app Safari AutoOpenSafeDownloads -bool false
-
-# Hide sidebar in top sites
-defaults write -app Safari ShowSidebarInTopSites -bool false
-
-# Enable developer tools
-defaults write -app Safari IncludeDevelopMenu -bool true
-defaults write -app Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write -app Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
-# Diable auto-fill
-defaults write -app Safari AutoFillFromAddressBook -bool false
-defaults write -app Safari AutoFillPasswords -bool false
-defaults write -app Safari AutoFillCreditCardData -bool false
-defaults write -app Safari AutoFillMiscellaneousForms -bool false
 
 
 #######################################
