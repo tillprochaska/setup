@@ -23,6 +23,7 @@ cask "alfred3"
 cask "contexts"
 cask "gephi"
 cask "grandperspective"
+cask "rectangle"
 cask "vlc"
 cask "zotero"
 
