@@ -1,72 +1,34 @@
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/cask-drivers"
 
 cask_args appdir: "/Applications"
 
 brew "mas"
 
 # Browsers
-cask "safari-technology-preview"
 cask "firefox-developer-edition"
-cask "firefox-nightly"
 cask "google-chrome"
-cask "google-chrome-canary"
-cask "microsoft-edge"
-
-# Edge Canary is not available via Homebrew
-cask "microsoft-edge-dev"
 
 # Producitivty & Utility
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 
-mas "Agenda", id: 1287445660
-mas "iA Writer", id: 775737590
 mas "MindNode 2", id: 992076693
-mas "Reeder 3", id: 880001334
-mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "Tailscale", id: 1475387142
 
 cask "1password"
 cask "1password-cli"
-cask "bettertouchtool"
-cask "blackhole"
+cask "adobe-acrobat-reader"
 cask "alfred3"
-cask "anki"
-cask "backblaze"
-cask "basictex"
-cask "beardedspice"
-cask "busycal"
-cask "busycontacts"
-cask "camtasia"
-cask "canon-captureontouch-utility"
 cask "contexts"
-cask "gifox"
+cask "gephi"
 cask "grandperspective"
-cask "handbrake"
-cask "keycastr"
-cask "macpass"
-cask "nextcloud"
-cask "papers"
-cask "raindropio"
-cask "raycast"
-cask "sim-daltonism"
-cask "spotify"
-cask "tidal"
-cask "ubersicht"
+cask "vlc"
 cask "zotero"
 
 # Messaging & Collaboration
-mas "Slack", id: 803453959
-
-cask "microsoft-teams"
+cask "slack"
 cask "signal"
-cask "skype"
-cask "telegram"
-cask "zoomus"
 
 # Business & Taxes
 mas "Steuererklärung", id: 748816884
@@ -81,6 +43,7 @@ mas "Affinity Photo", id: 824183456
 cask "figma"
 cask "imageoptim"
 cask "sketch"
+cask "sim-daltonism"
 
 # Some fonts are installed using Subversion
 brew "svn"
@@ -117,75 +80,38 @@ cask "font-space-mono"
 cask "font-spectral"
 
 # Dev
-cask "android-studio"
-cask "dash3"
+cask "dash"
 cask "docker"
-cask "eclipse-jee"
-cask "fork"
-cask "gpg-suite-no-mail"
+cask "gpg-suite"
 cask "iterm2"
-cask "mamp"
-cask "ngrok"
-cask "paw"
-cask "qt-creator"
-cask "phpstorm"
-cask "processing"
-cask "ray"
-cask "rstudio"
+cask "rapidapi"
 cask "sublime-text"
 cask "sublime-merge"
 cask "tableplus"
-cask "tower"
-cask "transmit"
-cask "visual-studio"
-cask "visual-studio-code"
-cask "vmware-fusion"
+cask "tailscale"
 
 # CLI
 brew "ansible"
 brew "bash"
 brew "brotli"
-brew "caddy"
-brew "cloudfoundry/tap/cf-cli@7"
 brew "curl"
 brew "coreutils"
 brew "findutils"
 brew "fish"
 brew "fonttools"
-brew "gcc"
 brew "gnu-sed"
 brew "gnu-tar"
 brew "gh"
-brew "ghostscript"
 brew "git"
-brew "git-secrets"
-brew "goaccess"
-brew "imageoptim-cli"
-brew "insect"
-brew "libgit2"
-brew "mailhog"
 brew "make"
 brew "npm"
-brew "optipng"
 brew "pandoc"
 brew "pandoc-citeproc"
 brew "pandoc-crossref"
-brew "pngquant"
-brew "potrace"
 brew "python3"
-brew "qt5"
-brew "r"
 brew "rsync"
-brew "rust"
-brew "rustfmt"
-brew "smartmontools"
-brew "spotifyd"
-brew "sqlite3"
-brew "stow"
 brew "tmux"
 brew "trash"
 brew "tree"
 brew "vim"
 brew "wget"
-brew "xz"
-brew "zopfli"
