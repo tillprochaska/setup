@@ -1,12 +1,9 @@
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-
 cask_args appdir: "/Applications"
 
 brew "mas"
 
 # Browsers
-cask "firefox-developer-edition"
+cask "firefox@developer-edition"
 cask "google-chrome"
 
 # Producitivty & Utility
@@ -19,7 +16,7 @@ mas "MindNode 2", id: 992076693
 cask "1password"
 cask "1password-cli"
 cask "adobe-acrobat-reader"
-cask "alfred3"
+cask "alfred"
 cask "contexts"
 cask "gephi"
 cask "grandperspective"
@@ -35,7 +32,6 @@ cask "signal"
 
 # Business & Taxes
 mas "Steuererklärung", id: 748816884
-mas "Tyme 2", id: 1063996724
 
 cask "moneymoney"
 
@@ -76,16 +72,16 @@ cask "font-space-grotesk"
 cask "font-vollkorn"
 cask "font-work-sans"
 cask "font-yatra-one"
-cask "font-source-sans-pro"
-cask "font-source-serif-pro"
+cask "font-source-sans-3"
+cask "font-source-serif-4"
 cask "font-space-grotesk"
 cask "font-space-mono"
 cask "font-spectral"
 
 # Dev
-cask "dash"
+cask "dash@6"
 cask "docker"
-cask "gpg-suite"
+# cask "gpg-suite" # For now, install beta for Ventura manually
 cask "iterm2"
 cask "rapidapi"
 cask "sublime-text"
