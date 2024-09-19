@@ -11,7 +11,7 @@ sudo -v
 
 
 # Install packages, casks and apps from App Store
-brew bundle --file ./dotfiles/Brewfile
+brew bundle --no-upgrade --file ./dotfiles/.Brewfile
 
 
 # Set default shell
@@ -28,10 +28,5 @@ chsh -s $shell_path
 # Copy Sublime Text preferences
 cp ./dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
-
-# Symlink dotfiles
-dotdir="$(git rev-parse --show-toplevel)/dotfiles"
-ln -s "$dotdir/.gitconfig" ~/.gitconfig
-ln -s "$dotdir/.gitignore" ~/.gitignore
 
 echo "🚨🚨🚨 Do not forget to reset full disk access permission! 🚨🚨🚨"
