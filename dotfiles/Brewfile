@@ -117,5 +117,5 @@ brew "tree"
 brew "vim"
 brew "wget"
 
-tap "tap zackelia/formulae"
+tap "zackelia/formulae"
 brew "bclm"
