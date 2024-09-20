@@ -24,6 +24,7 @@ cask "macpass"
 cask "mullvadvpn"
 cask "netnewswire"
 cask "rectangle"
+cask "tyme"
 cask "vlc"
 cask "zotero"
 
