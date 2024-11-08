@@ -114,6 +114,7 @@ brew "rsync"
 brew "tmux"
 brew "trash"
 brew "tree"
+brew "uv"
 brew "vim"
 brew "wget"
 
